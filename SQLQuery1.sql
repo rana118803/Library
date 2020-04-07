@@ -21,7 +21,7 @@ INSERT INTO admin ([id], [FullName], [AdminEmail], [UserName], [Password], [upda
 --
 
 CREATE TABLE tblauthors (
-  [id] int NOT NULL,
+  [id] int NOT NULL ,
   [AuthorName] varchar(159) DEFAULT NULL,
   [creationDate] datetime2(0) NULL DEFAULT GETDATE(),
   [UpdationDate] datetime2(0) NULL DEFAULT NULL 
