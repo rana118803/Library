@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
@@ -12,16 +12,20 @@ namespace LibraryManagementSystem.Areas.Admin.Controllers
 {
     public class tblstudentsController : Controller
     {
-        private Model1 db = new Model1();
+        private readonly Model1 db = new Model1();
+        
 
         // GET: Admin/tblstudents
         public ActionResult Index()
         {
+            
             return View(db.tblstudents.ToList());
         }
 
-        // GET: Admin/tblstudents/Details/5
-        public ActionResult Details(int? id)
+        [HttpPost]
+
+            // GET: Admin/tblstudents/Details/5
+            public ActionResult Details(int? id)
         {
             if (id == null)
             {
@@ -59,36 +63,38 @@ namespace LibraryManagementSystem.Areas.Admin.Controllers
         }
 
         // GET: Admin/tblstudents/Edit/5
-        public ActionResult Edit(int? id)
-        {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            tblstudents tblstudents = db.tblstudents.Find(id);
-            if (tblstudents == null)
-            {
-                return HttpNotFound();
-            }
-            return View(tblstudents);
-        }
+       
 
         // POST: Admin/tblstudents/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "id,StudentId,FullName,EmailId,MobileNumber,Password,Status,RegDate,UpdationDate")] tblstudents tblstudents)
+        public ActionResult Edit(tblstudents students)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(tblstudents).State = EntityState.Modified;
+
+                var dbUser = db.tblstudents.Find(students.id);
+
+                
+              if(students.Status == 0)
+                {
+                    dbUser.Status = 1;
+                }
+                else
+                {
+                    dbUser.Status = 0;
+                }
+
+                db.Entry(dbUser).State = EntityState.Modified;
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                
             }
-            return View(tblstudents);
+            return RedirectToAction("Index");
         }
 
+        
         // GET: Admin/tblstudents/Delete/5
         public ActionResult Delete(int? id)
         {
@@ -114,7 +120,13 @@ namespace LibraryManagementSystem.Areas.Admin.Controllers
             db.SaveChanges();
             return RedirectToAction("Index");
         }
-
+        public ActionResult Action(tblstudents st)
+        {
+            st.Status = 0;
+            db.Entry(st.Status).State = EntityState.Modified;
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
         protected override void Dispose(bool disposing)
         {
             if (disposing)
@@ -125,3 +137,5 @@ namespace LibraryManagementSystem.Areas.Admin.Controllers
         }
     }
 }
+
+
