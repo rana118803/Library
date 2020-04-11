@@ -14,11 +14,8 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>LibraryManagementSystem</RootNamespace>
     <AssemblyName>LibraryManagementSystem</AssemblyName>
- HEAD
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
-=======
+
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
->>>>>>> 2b7e891ac9e72b89299bf790f57f31c83551b88a
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -135,11 +132,8 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
- HEAD
     <Compile Include="Areas\Admin\Controllers\tblissuedbookdetailsController.cs" />
-=======
     <Compile Include="Areas\Admin\Controllers\tblauthorsController.cs" />
->>>>>>> 2b7e891ac9e72b89299bf790f57f31c83551b88a
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -165,22 +159,21 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Areas\Admin\Views\web.config" />
+    <Content Include="Areas\Admin\Views\web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
     <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
- HEAD
     <Content Include="Areas\Admin\Views\tblissuedbookdetails\Create.cshtml" />
     <Content Include="Areas\Admin\Views\tblissuedbookdetails\Delete.cshtml" />
     <Content Include="Areas\Admin\Views\tblissuedbookdetails\Details.cshtml" />
     <Content Include="Areas\Admin\Views\tblissuedbookdetails\Edit.cshtml" />
     <Content Include="Areas\Admin\Views\tblissuedbookdetails\Index.cshtml" />
-=======
     <Content Include="Areas\Admin\Views\tblauthors\Create.cshtml" />
     <Content Include="Areas\Admin\Views\tblauthors\Delete.cshtml" />
     <Content Include="Areas\Admin\Views\tblauthors\Details.cshtml" />
     <Content Include="Areas\Admin\Views\tblauthors\Edit.cshtml" />
     <Content Include="Areas\Admin\Views\tblauthors\Index.cshtml" />
->>>>>>> 2b7e891ac9e72b89299bf790f57f31c83551b88a
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
