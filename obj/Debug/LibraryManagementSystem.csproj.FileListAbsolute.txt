@@ -80,3 +80,169 @@ C:\Users\hp\source\repos\LibraryManagementSystem\obj\Debug\LibraryManagementSyst
 C:\Users\hp\source\repos\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.csproj.CopyComplete
 C:\Users\hp\source\repos\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.dll
 C:\Users\hp\source\repos\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.pdb
+<<<<<<< HEAD
+E:\slides\level 3\SW2\Library\bin\LibraryManagementSystem.dll.config
+E:\slides\level 3\SW2\Library\bin\LibraryManagementSystem.dll
+E:\slides\level 3\SW2\Library\bin\LibraryManagementSystem.pdb
+E:\slides\level 3\SW2\Library\bin\roslyn\csc.exe
+E:\slides\level 3\SW2\Library\bin\roslyn\csc.exe.config
+E:\slides\level 3\SW2\Library\bin\roslyn\csc.rsp
+E:\slides\level 3\SW2\Library\bin\roslyn\csi.exe
+E:\slides\level 3\SW2\Library\bin\roslyn\csi.exe.config
+E:\slides\level 3\SW2\Library\bin\roslyn\csi.rsp
+E:\slides\level 3\SW2\Library\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\slides\level 3\SW2\Library\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\Microsoft.Managed.Core.targets
+E:\slides\level 3\SW2\Library\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\slides\level 3\SW2\Library\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\System.AppContext.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\System.Collections.Immutable.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\System.Console.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\System.Globalization.Calendars.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\System.IO.Compression.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\System.IO.FileSystem.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\System.Net.Http.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\System.Net.Sockets.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\System.Reflection.Metadata.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\System.ValueTuple.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\System.Xml.XmlDocument.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\System.Xml.XPath.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\slides\level 3\SW2\Library\bin\roslyn\vbc.exe
+E:\slides\level 3\SW2\Library\bin\roslyn\vbc.exe.config
+E:\slides\level 3\SW2\Library\bin\roslyn\vbc.rsp
+E:\slides\level 3\SW2\Library\bin\roslyn\VBCSCompiler.exe
+E:\slides\level 3\SW2\Library\bin\roslyn\VBCSCompiler.exe.config
+E:\slides\level 3\SW2\Library\bin\Antlr3.Runtime.dll
+E:\slides\level 3\SW2\Library\bin\EntityFramework.dll
+E:\slides\level 3\SW2\Library\bin\EntityFramework.SqlServer.dll
+E:\slides\level 3\SW2\Library\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\slides\level 3\SW2\Library\bin\Microsoft.Web.Infrastructure.dll
+E:\slides\level 3\SW2\Library\bin\Newtonsoft.Json.dll
+E:\slides\level 3\SW2\Library\bin\System.Web.Helpers.dll
+E:\slides\level 3\SW2\Library\bin\System.Web.Mvc.dll
+E:\slides\level 3\SW2\Library\bin\System.Web.Optimization.dll
+E:\slides\level 3\SW2\Library\bin\System.Web.Razor.dll
+E:\slides\level 3\SW2\Library\bin\System.Web.WebPages.Deployment.dll
+E:\slides\level 3\SW2\Library\bin\System.Web.WebPages.dll
+E:\slides\level 3\SW2\Library\bin\System.Web.WebPages.Razor.dll
+E:\slides\level 3\SW2\Library\bin\WebGrease.dll
+E:\slides\level 3\SW2\Library\bin\EntityFramework.xml
+E:\slides\level 3\SW2\Library\bin\EntityFramework.SqlServer.xml
+E:\slides\level 3\SW2\Library\bin\System.Web.Helpers.xml
+E:\slides\level 3\SW2\Library\bin\System.Web.Mvc.xml
+E:\slides\level 3\SW2\Library\bin\System.Web.Optimization.xml
+E:\slides\level 3\SW2\Library\bin\System.Web.Razor.xml
+E:\slides\level 3\SW2\Library\bin\System.Web.WebPages.xml
+E:\slides\level 3\SW2\Library\bin\System.Web.WebPages.Deployment.xml
+E:\slides\level 3\SW2\Library\bin\System.Web.WebPages.Razor.xml
+E:\slides\level 3\SW2\Library\bin\Newtonsoft.Json.xml
+E:\slides\level 3\SW2\Library\bin\Antlr3.Runtime.pdb
+E:\slides\level 3\SW2\Library\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\slides\level 3\SW2\Library\obj\Debug\LibraryManagementSystem.dll
+E:\slides\level 3\SW2\Library\obj\Debug\LibraryManagementSystem.pdb
+E:\slides\level 3\SW2\Library\obj\Debug\LibraryManagementSystem.csprojResolveAssemblyReference.cache
+=======
+F:\level3term2\project\Library\bin\LibraryManagementSystem.dll.config
+F:\level3term2\project\Library\bin\LibraryManagementSystem.dll
+F:\level3term2\project\Library\bin\LibraryManagementSystem.pdb
+F:\level3term2\project\Library\bin\roslyn\csc.exe
+F:\level3term2\project\Library\bin\roslyn\csc.exe.config
+F:\level3term2\project\Library\bin\roslyn\csc.rsp
+F:\level3term2\project\Library\bin\roslyn\csi.exe
+F:\level3term2\project\Library\bin\roslyn\csi.exe.config
+F:\level3term2\project\Library\bin\roslyn\csi.rsp
+F:\level3term2\project\Library\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\level3term2\project\Library\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\level3term2\project\Library\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\level3term2\project\Library\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\level3term2\project\Library\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\level3term2\project\Library\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\level3term2\project\Library\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\level3term2\project\Library\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\level3term2\project\Library\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\level3term2\project\Library\bin\roslyn\Microsoft.Managed.Core.targets
+F:\level3term2\project\Library\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\level3term2\project\Library\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\level3term2\project\Library\bin\roslyn\System.AppContext.dll
+F:\level3term2\project\Library\bin\roslyn\System.Collections.Immutable.dll
+F:\level3term2\project\Library\bin\roslyn\System.Console.dll
+F:\level3term2\project\Library\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\level3term2\project\Library\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\level3term2\project\Library\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\level3term2\project\Library\bin\roslyn\System.Globalization.Calendars.dll
+F:\level3term2\project\Library\bin\roslyn\System.IO.Compression.dll
+F:\level3term2\project\Library\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\level3term2\project\Library\bin\roslyn\System.IO.FileSystem.dll
+F:\level3term2\project\Library\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\level3term2\project\Library\bin\roslyn\System.Net.Http.dll
+F:\level3term2\project\Library\bin\roslyn\System.Net.Sockets.dll
+F:\level3term2\project\Library\bin\roslyn\System.Reflection.Metadata.dll
+F:\level3term2\project\Library\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\level3term2\project\Library\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\level3term2\project\Library\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\level3term2\project\Library\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\level3term2\project\Library\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\level3term2\project\Library\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\level3term2\project\Library\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\level3term2\project\Library\bin\roslyn\System.ValueTuple.dll
+F:\level3term2\project\Library\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\level3term2\project\Library\bin\roslyn\System.Xml.XmlDocument.dll
+F:\level3term2\project\Library\bin\roslyn\System.Xml.XPath.dll
+F:\level3term2\project\Library\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\level3term2\project\Library\bin\roslyn\vbc.exe
+F:\level3term2\project\Library\bin\roslyn\vbc.exe.config
+F:\level3term2\project\Library\bin\roslyn\vbc.rsp
+F:\level3term2\project\Library\bin\roslyn\VBCSCompiler.exe
+F:\level3term2\project\Library\bin\roslyn\VBCSCompiler.exe.config
+F:\level3term2\project\Library\bin\Antlr3.Runtime.dll
+F:\level3term2\project\Library\bin\EntityFramework.dll
+F:\level3term2\project\Library\bin\EntityFramework.SqlServer.dll
+F:\level3term2\project\Library\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\level3term2\project\Library\bin\Microsoft.Web.Infrastructure.dll
+F:\level3term2\project\Library\bin\Newtonsoft.Json.dll
+F:\level3term2\project\Library\bin\System.Web.Helpers.dll
+F:\level3term2\project\Library\bin\System.Web.Mvc.dll
+F:\level3term2\project\Library\bin\System.Web.Optimization.dll
+F:\level3term2\project\Library\bin\System.Web.Razor.dll
+F:\level3term2\project\Library\bin\System.Web.WebPages.Deployment.dll
+F:\level3term2\project\Library\bin\System.Web.WebPages.dll
+F:\level3term2\project\Library\bin\System.Web.WebPages.Razor.dll
+F:\level3term2\project\Library\bin\WebGrease.dll
+F:\level3term2\project\Library\bin\EntityFramework.xml
+F:\level3term2\project\Library\bin\EntityFramework.SqlServer.xml
+F:\level3term2\project\Library\bin\System.Web.Helpers.xml
+F:\level3term2\project\Library\bin\System.Web.Mvc.xml
+F:\level3term2\project\Library\bin\System.Web.Optimization.xml
+F:\level3term2\project\Library\bin\System.Web.Razor.xml
+F:\level3term2\project\Library\bin\System.Web.WebPages.xml
+F:\level3term2\project\Library\bin\System.Web.WebPages.Deployment.xml
+F:\level3term2\project\Library\bin\System.Web.WebPages.Razor.xml
+F:\level3term2\project\Library\bin\Newtonsoft.Json.xml
+F:\level3term2\project\Library\bin\Antlr3.Runtime.pdb
+F:\level3term2\project\Library\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\level3term2\project\Library\obj\Debug\LibraryManagementSystem.csprojAssemblyReference.cache
+F:\level3term2\project\Library\obj\Debug\LibraryManagementSystem.csproj.CopyComplete
+F:\level3term2\project\Library\obj\Debug\LibraryManagementSystem.dll
+F:\level3term2\project\Library\obj\Debug\LibraryManagementSystem.pdb
+>>>>>>> 2b7e891ac9e72b89299bf790f57f31c83551b88a
