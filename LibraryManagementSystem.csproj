@@ -14,7 +14,6 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>LibraryManagementSystem</RootNamespace>
     <AssemblyName>LibraryManagementSystem</AssemblyName>
-
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -36,6 +35,38 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PublishDatabaseSettings>
+      <Objects>
+        <ObjectGroup Name="Model1-Deployment" Order="1">
+          <Destination Path="Data Source=DESKTOP-PODTQJ6%3bInitial Catalog=LibraryManagementSystem%3bIntegrated Security=True" />
+          <Object Type="DbFullSql">
+            <PreSource Path="Data Source=DESKTOP-PODTQJ6%3bInitial Catalog=LibraryManagementSystem%3bIntegrated Security=True%3bApplication Name=EntityFramework" ScriptSchema="True" ScriptData="True" CopyAllFullTextCatalogs="False" DriDefaults="True" />
+            <Source Path="obj\Debug\AutoScripts\Model1-Deployment_SchemaAndData.sql" Transacted="True" />
+          </Object>
+        </ObjectGroup>
+        <ObjectGroup Name="Model11-Deployment" Order="2">
+          <Destination Path="" />
+          <Object Type="DbFullSql">
+            <PreSource Path="Data Source=DESKTOP-9C266Q8\SQLEXPRESS%3bInitial Catalog=LibrarySystem%3bIntegrated Security=True%3bApplication Name=EntityFramework" ScriptSchema="True" ScriptData="False" CopyAllFullTextCatalogs="False" DriDefaults="True" />
+            <Source Path="obj\Debug\AutoScripts\Model11-Deployment_SchemaOnly.sql" Transacted="True" />
+          </Object>
+        </ObjectGroup>
+        <ObjectGroup Name="Model12-Deployment" Order="3">
+          <Destination Path="" />
+          <Object Type="DbFullSql">
+            <PreSource Path="Data Source=DESKTOP-9C266Q8\SQLEXPRESS%3bInitial Catalog=LibrarySystem%3bIntegrated Security=True%3bApplication Name=EntityFramework" ScriptSchema="True" ScriptData="False" CopyAllFullTextCatalogs="False" DriDefaults="True" />
+            <Source Path="obj\Debug\AutoScripts\Model12-Deployment_SchemaOnly.sql" Transacted="True" />
+          </Object>
+        </ObjectGroup>
+        <ObjectGroup Name="Model13-Deployment" Order="4">
+          <Destination Path="" />
+          <Object Type="DbFullSql">
+            <PreSource Path="Data Source=DESKTOP-9C266Q8\SQLEXPRESS%3bInitial Catalog=LibrarySystem%3bIntegrated Security=True%3bApplication Name=EntityFramework" ScriptSchema="True" ScriptData="False" CopyAllFullTextCatalogs="False" DriDefaults="True" />
+            <Source Path="obj\Debug\AutoScripts\Model13-Deployment_SchemaOnly.sql" Transacted="True" />
+          </Object>
+        </ObjectGroup>
+      </Objects>
+    </PublishDatabaseSettings>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -135,6 +166,7 @@
     <Compile Include="Areas\Admin\Controllers\tblissuedbookdetailsController.cs" />
     <Compile Include="Areas\Admin\Controllers\tblauthorsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\tblbooksController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -231,6 +263,11 @@
     <Content Include="Style\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Style\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Style\fonts\glyphicons-halflings-regulard41d.eot" />
+    <Content Include="Views\tblbooks\Create.cshtml" />
+    <Content Include="Views\tblbooks\Delete.cshtml" />
+    <Content Include="Views\tblbooks\Details.cshtml" />
+    <Content Include="Views\tblbooks\Edit.cshtml" />
+    <Content Include="Views\tblbooks\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
