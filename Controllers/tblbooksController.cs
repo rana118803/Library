@@ -13,7 +13,6 @@ namespace LibraryManagementSystem.Controllers
     public class tblbooksController : Controller
     {
         private Model1 db = new Model1();
-        private static List <Models.tblbooks> books ;
         // GET: tblbooks
         public ActionResult Index()
         {

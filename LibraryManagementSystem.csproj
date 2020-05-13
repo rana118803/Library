@@ -165,6 +165,7 @@
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Areas\Admin\Controllers\tblissuedbookdetailsController.cs" />
     <Compile Include="Areas\Admin\Controllers\tblauthorsController.cs" />
+    <Compile Include="Controllers\ChangePasswordController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\tblbooksController.cs" />
     <Compile Include="Global.asax.cs">
@@ -268,6 +269,8 @@
     <Content Include="Views\tblbooks\Details.cshtml" />
     <Content Include="Views\tblbooks\Edit.cshtml" />
     <Content Include="Views\tblbooks\Index.cshtml" />
+    <Content Include="Views\admins\Edit.cshtml" />
+    <Content Include="Views\ChangePassword\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
