@@ -59,8 +59,6 @@
                         </div>
                     </div>
 
-                    
-
                     <div class="form-group">
                         @Html.LabelFor(model => model.fine, htmlAttributes: new { @class = "control-label col-md-2" })
                         <div class="col-md-10">
@@ -69,13 +67,19 @@
                         </div>
                     </div>
 
+                    
+
                     <div class="form-group">
                        
                         @Html.ActionLink("Return Book", "Delete", new { id = Model.id } , new { @class = "btn btn-info" })
+
+                        @Html.ActionLink("Add Fine", "Update", new { id = Model.id, fine = Model.fine }, new { @class = "btn btn-info" })
+
                     </div>
         </div>
         
        
+
 
         </tbody>
     

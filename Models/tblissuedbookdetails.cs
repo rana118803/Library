@@ -25,5 +25,10 @@ namespace LibraryManagementSystem.Models
         public int? RetrunStatus { get; set; }
 
         public int? fine { get; set; }
+
+        public static implicit operator List<object>(tblissuedbookdetails v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

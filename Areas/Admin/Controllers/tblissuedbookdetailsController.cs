@@ -20,7 +20,24 @@ namespace LibraryManagementSystem.Areas.Admin.Controllers
             return View(db.tblissuedbookdetails.ToList());
         }
 
-       
+        // Get and save Fine in database
+        public ActionResult Update(int? id , int fine)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            tblissuedbookdetails tblissuedbookdetails = db.tblissuedbookdetails.Find(id);
+            if (tblissuedbookdetails == null)
+            {
+                return HttpNotFound();
+            }
+
+            tblissuedbookdetails.fine = fine;
+            db.SaveChanges();
+            return RedirectToAction("Index");
+                        
+        }
 
         // GET: Admin/tblissuedbookdetails/Details/5
         public ActionResult Details(int? id)
@@ -30,6 +47,7 @@ namespace LibraryManagementSystem.Areas.Admin.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
             tblissuedbookdetails tblissuedbookdetails = db.tblissuedbookdetails.Find(id);
+           
             if (tblissuedbookdetails == null)
             {
                 return HttpNotFound();
@@ -73,6 +91,7 @@ namespace LibraryManagementSystem.Areas.Admin.Controllers
             }
             return View(tblissuedbookdetails);
         }
+
 
         // POST: Admin/tblissuedbookdetails/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
