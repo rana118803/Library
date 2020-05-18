@@ -50,12 +50,13 @@ namespace LibraryManagementSystem.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.tblauthors.Add(tblauthors);
-                db.SaveChanges();
-                return RedirectToAction("Index");
+                
+                    db.tblauthors.Add(tblauthors);
+                    db.SaveChanges(); 
+                return RedirectToAction("Index"); 
             }
 
-            return View(tblauthors);
+            return View(tblauthors); 
         }
 
         // GET: Admin/tblauthors/Edit/5

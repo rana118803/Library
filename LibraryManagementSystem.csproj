@@ -54,6 +54,9 @@
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.ComponentModel.Annotations.4.7.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
     <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Drawing" />
@@ -134,7 +137,24 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\admin.cs" />
+    <Compile Include="Models\admin.cs">
+      <DependentUpon>LoginModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\LoginModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoginModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\LoginModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoginModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\LoginModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoginModel.edmx</DependentUpon>
+    </Compile>
     <Compile Include="Models\Model1.cs" />
     <Compile Include="Models\sysdiagrams.cs" />
     <Compile Include="Models\tblauthors.cs" />
@@ -153,6 +173,16 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Models\LoginModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>LoginModel.edmx</DependentUpon>
+      <LastGenOutput>LoginModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\LoginModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>LoginModel.edmx</DependentUpon>
+      <LastGenOutput>LoginModel.cs</LastGenOutput>
+    </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\Admin\Views\web.config" />
@@ -163,6 +193,13 @@
     <Content Include="Areas\Admin\Views\tblauthors\Details.cshtml" />
     <Content Include="Areas\Admin\Views\tblauthors\Edit.cshtml" />
     <Content Include="Areas\Admin\Views\tblauthors\Index.cshtml" />
+    <EntityDeploy Include="Models\LoginModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>LoginModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\LoginModel.edmx.diagram">
+      <DependentUpon>LoginModel.edmx</DependentUpon>
+    </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -218,6 +255,8 @@
     <Content Include="Style\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Style\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Style\fonts\glyphicons-halflings-regulard41d.eot" />
+    <Content Include="Views\Home\Login.cshtml" />
+    <Content Include="Views\Home\welcome.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -235,6 +274,9 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

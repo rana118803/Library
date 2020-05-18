@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LibrarySystemModelStoreContainer" CdmEntityContainer="LibrarySystemEntities1">
+    <EntitySetMapping Name="admins">
+      <EntityTypeMapping TypeName="LibrarySystemModel.admin">
+        <MappingFragment StoreEntitySet="admin">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="AdminEmail" ColumnName="AdminEmail" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="updationDate" ColumnName="updationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

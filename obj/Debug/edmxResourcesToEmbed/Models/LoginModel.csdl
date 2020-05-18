@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LibrarySystemModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="admin">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="UserName" />
+      <PropertyRef Name="Password" />
+      <PropertyRef Name="updationDate" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="FullName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="AdminEmail" Type="String" MaxLength="120" FixedLength="false" Unicode="false" />
+    <Property Name="UserName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="updationDate" Type="DateTime" Nullable="false" Precision="0" />
+  </EntityType>
+  <EntityContainer Name="LibrarySystemEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="admins" EntityType="Self.admin" />
+  </EntityContainer>
+</Schema>

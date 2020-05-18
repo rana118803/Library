@@ -162,3 +162,4 @@ F:\level3term2\project\Library\obj\Debug\LibraryManagementSystem.csprojAssemblyR
 F:\level3term2\project\Library\obj\Debug\LibraryManagementSystem.csproj.CopyComplete
 F:\level3term2\project\Library\obj\Debug\LibraryManagementSystem.dll
 F:\level3term2\project\Library\obj\Debug\LibraryManagementSystem.pdb
+F:\level3term2\project\Library\bin\System.ComponentModel.Annotations.dll
