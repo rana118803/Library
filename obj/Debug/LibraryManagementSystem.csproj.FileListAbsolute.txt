@@ -78,6 +78,7 @@ E:\slides\level 3\SW2\Library\bin\Antlr3.Runtime.pdb
 E:\slides\level 3\SW2\Library\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 E:\slides\level 3\SW2\Library\obj\Debug\LibraryManagementSystem.dll
 E:\slides\level 3\SW2\Library\obj\Debug\LibraryManagementSystem.pdb
+<<<<<<< HEAD
 E:\FacultyMaterials\Library\bin\LibraryManagementSystem.dll.config
 E:\FacultyMaterials\Library\bin\LibraryManagementSystem.dll
 E:\FacultyMaterials\Library\bin\LibraryManagementSystem.pdb
@@ -161,3 +162,6 @@ E:\FacultyMaterials\Library\obj\Debug\LibraryManagementSystem.csproj.CoreCompile
 E:\FacultyMaterials\Library\obj\Debug\LibraryManagementSystem.csproj.CopyComplete
 E:\FacultyMaterials\Library\obj\Debug\LibraryManagementSystem.dll
 E:\FacultyMaterials\Library\obj\Debug\LibraryManagementSystem.pdb
+=======
+E:\slides\level 3\SW2\Library\obj\Debug\LibraryManagementSystem.csprojResolveAssemblyReference.cache
+>>>>>>> 0576e05142a7a85c4bb3637beed568a2e32201cf
